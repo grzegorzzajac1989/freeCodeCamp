@@ -1,9 +1,7 @@
-
 def largestOfFour(arr)
-
   final = Array.new
   n = 0
-
+  
   while n < 4 do
     final.push(arr[n].sort.last)
     n += 1
